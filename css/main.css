@@ -32,6 +32,24 @@ body{
     margin-right: auto;*/
     margin: 0 auto;
 }
-.navegacion-principal{
+.nav-bg{
     background-color: var(--secundario);
+}
+.navegacion-principal{
+    /*padding: 1rem;*/
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navegacion-principal a{
+    padding: 1rem;
+    /*background-color: var(--primario);*/
+    color: var(--blanco);
+    text-decoration: none;
+}
+.navegacion-principal a:hover{
+    padding: 1rem;
+    background-color: var(--primario);
+    color: var(--negro);
 }
