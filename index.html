@@ -53,8 +53,9 @@
                 <path d="M12.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
                 <path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
               </svg>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti cum impedit, maxime atque corrupti est voluptatibus sunt! Provident eius, alias vero, dolores voluptates tempora veritatis numquam voluptas natus autem nostrum!</p>
             </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti cum impedit, maxime atque corrupti est voluptatibus sunt! Provident eius, alias vero, dolores voluptates tempora veritatis numquam voluptas natus autem nostrum!</p>
+
         </section>
         <section class="servicio">
         <h3>aplicaciones moviles</h3>
@@ -74,8 +75,9 @@
                 <path d="M9 18l0 3" />
                 <path d="M15 18l0 3" />
               </svg>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iusto harum corporis accusantium reiciendis blanditiis nam quos aliquam dignissimos earum voluptatibus id quas aspernatur est error fuga, voluptates quae consequuntur!</p>
             </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iusto harum corporis accusantium reiciendis blanditiis nam quos aliquam dignissimos earum voluptatibus id quas aspernatur est error fuga, voluptates quae consequuntur!</p>
+
     </section>
     <section class="servicio">
         <h3>e-commerce</h3>
@@ -87,39 +89,45 @@
                 <path d="M7 15l.01 0" />
                 <path d="M11 15l2 0" />
               </svg>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus eveniet neque unde est rerum illo perspiciatis exercitationem perferendis aperiam! Minima officiis doloremque illo facere aliquam eveniet esse excepturi tempora dolore?</p>
     </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus eveniet neque unde est rerum illo perspiciatis exercitationem perferendis aperiam! Minima officiis doloremque illo facere aliquam eveniet esse excepturi tempora dolore?</p>
+
     </section>
     <div>
 </main>
     <section>
         <h2> contacto</h2>
+    <main>
+        <form class="formulario"> 
+            <fieldset>
+                <legend>Llena tus datos para el primer contacto</legend>
+                <div class="contenedor-campos">  
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Tu nombre">
+                    </div>
+                    <div class="campo">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" placeholder="Tu número telefónico">
+                    </div>    
+                    <div class="campo">
+                        <label for="correo">Correo</label>
+                        <input type="email" id="correo" placeholder="Tu correo electrónico">
+                    </div>
+                    <div class="campo">
+                        <label for="comentarios">Comentarios</label>
+                        <textarea id="comentarios" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="enviar">
+                    </div>
+            </fieldset>
+        </form>
+    </main>
     </section>
-    <form> 
-        <fieldset>
-            <legend>
-                llena tus datos para el primer contacto
-            </legend>
-            <div>
-                <label for="">nombre</label>
-                <input type="text" placeholder="tu nombre">
-            </div>
-            <div>
-                <label for="">telefono</label>
-                <input type="tel" placeholder="tu numero telefonico">
-            </div>    
-            <div>
-                <label for="">correo</label>
-                <input type="email" placeholder="tu numero telefonico">
-            </div>
-                <label for="">comentarios</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div>
-            <div><input type="submit" value="subelo"/></div>
-        </fieldset>
-    </form>
-    <footer>
-        <p>todos los derechos reservados</p>
+    <footer class="footer">
+        <p>todos los derechos reservados ©. Guillermo Medina</p>
     </footer>
 </body>
 </html>
