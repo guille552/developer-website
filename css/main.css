@@ -6,8 +6,6 @@
     --gris: #757575;
     --grisClaro: #DFE9F3;
 }
-
-
 html{
     font-size: 62.5%;
     box-sizing: border-box;
@@ -21,6 +19,7 @@ scroll-snap-type: y mandatory;
 *, *:before, *:after{
     box-sizing: inherit;
 }
+
 body{
     font-size: 16px;
     font-family: 'krub', sans-serif;
