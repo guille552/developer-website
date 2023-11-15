@@ -12,6 +12,11 @@ html{
     font-size: 62.5%;
     box-sizing: border-box;
     background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
+scroll-snap-type: y mandatory;
+}
+.titulo, .servicios-heading, .contacto-heading{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
 }
 *, *:before, *:after{
     box-sizing: inherit;
@@ -210,7 +215,6 @@ h1, h2, h3{
 }
 .campo textarea{
     height: 20rem;
-    
 }
 .boton:hover{
     cursor: pointer;
